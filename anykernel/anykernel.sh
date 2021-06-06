@@ -4,14 +4,14 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=
+kernel.string= Talesweaver 1.0.0 For Redmi Note 9 Pro
 do.devicecheck=1
 do.modules=0
 do.systemless=0
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=gauguin
-device.name2=umi
+device.name2=
 supported.versions=
 supported.patchlevels=
 '; } # end properties
