@@ -414,10 +414,10 @@ if [ -f version ]; then
 fi;
 ui_print "";
 ui_print ""
-ui_print "        Redmi Note 9 Pro Kernel        ";
-ui_print "     By Amktiao, Guaiyihu, DtHnAme     ";
+ui_print "        Redmi Note 9 Pro Talesweaver        ";
+ui_print "      Made by Sakurai | Rebased Version";
 ui_print " ";
-ui_print "AnyKernel3 by osm0sis @ xda-developers";
+ui_print "   AnyKernel3 by osm0sis @ xda-developers";
 ui_print " ";
 
 setup_env;
