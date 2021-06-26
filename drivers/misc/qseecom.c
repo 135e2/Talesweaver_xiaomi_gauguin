@@ -485,7 +485,7 @@ static int __qseecom_scm_call2_locked(uint32_t smc_id, struct scm_desc *desc)
 			mutex_lock(&app_access_lock);
 		}
 		if (retry_count == 33)
-			pr_warn("secure world has been busy for 1 second!\n");
+			pr_debug("secure world has been busy for 1 second!\n");
 	} while (ret == -EBUSY &&
 			(retry_count++ < QSEECOM_SCM_EBUSY_MAX_RETRY));
 	return ret;
